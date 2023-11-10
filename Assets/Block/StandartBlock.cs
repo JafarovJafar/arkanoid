@@ -4,6 +4,11 @@ public class StandartBlock : BaseBlock
 {
     private float _health;
 
+    public override void Init()
+    {
+
+    }
+
     public override void TakeDamage(float damage)
     {
         _health -= damage;
@@ -18,5 +23,6 @@ public class StandartBlock : BaseBlock
     {
         Debug.Log($"Блок {name} умер");
         gameObject.SetActive(false);
+        InvokeDestroyed();
     }
 }
