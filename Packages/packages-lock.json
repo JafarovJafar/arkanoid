@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.shafir.fsm": {
+      "version": "https://github.com/JafarovJafar/shafir-fsm.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "267eb690a4e6bb194ae4da4895425b3966d86d40"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
@@ -53,6 +60,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "jp.hadashikick.vcontainer": {
+      "version": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.16.8",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5e6f5cc14b6dc8b94251bf6c0d6c37025a6ecf77"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
