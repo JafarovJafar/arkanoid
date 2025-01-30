@@ -1,0 +1,16 @@
+{
+    "name": "Arkanoid.Scenes",
+    "rootNamespace": "Arkanoid.SceneManagement",
+    "references": [
+        "Arkanoid.MonoBehaviourHolder"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
